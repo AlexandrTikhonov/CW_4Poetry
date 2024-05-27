@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5ae886-9a8c-48b3-ad09-27581303b79a" name="Changes" comment="" />
+    <list default="true" id="bc5ae886-9a8c-48b3-ad09-27581303b79a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vacancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests_add_vacancies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -32,6 +52,19 @@
       <option name="presentableId" value="Default" />
       <updated>1716810800025</updated>
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <option name="closed" value="true" />
+      <created>1716810988833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716810988833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
 </project>

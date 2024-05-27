@@ -85,4 +85,3 @@ if __name__ == "__main__":
     hh_vacancies: List[dict] = hh_api.get_vacancies("python developer")
     list_vacancies: List[Vacancy] = Vacancy.create_vacancies(hh_vacancies)
     print(list_vacancies)
-   

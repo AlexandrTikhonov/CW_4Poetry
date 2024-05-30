@@ -178,5 +178,3 @@ if __name__ == "__main__":
     selected_vacancy = file_json.select_vacancy("Django")
     for vacancy in selected_vacancy:
         print(f"{vacancy}\n")
-
-

@@ -42,8 +42,17 @@ def user_interaction():
             list_vacancies = set(file_worker.select_vacancy(word))
             selected_vacancies.update(list_vacancies)
 
-    ready_vacancies = [vacancy for vacancy in selected_vacancies if desired_salary <= vacancy.salary_from]
+    ready_vacancies = []
+    for vacancy in selected_vacancies:
+        try:
+            if desired_salary <= int(vacancy.salary_to) and desired_salary >= int(vacancy.salary_from):
+                ready_vacancies.append(vacancy)
+        except ValueError:
+            # Если salary_to не может быть приведена к int, пропускаем эту вакансию
+            continue
+
     result = sorted(ready_vacancies)
 
     for item in result[0:top_n]:
         print(item, '\n')
+

@@ -45,10 +45,10 @@ def user_interaction():
     ready_vacancies = []
     for vacancy in selected_vacancies:
         try:
-            if desired_salary <= int(vacancy.salary_from):
+            if desired_salary <= int(vacancy.salary_to) and desired_salary >= int(vacancy.salary_from):
                 ready_vacancies.append(vacancy)
         except ValueError:
-            # Если salary_from не может быть приведена к int, пропускаем эту вакансию
+            # Если salary_to не может быть приведена к int, пропускаем эту вакансию
             continue
 
     result = sorted(ready_vacancies)

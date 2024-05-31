@@ -55,4 +55,3 @@ def user_interaction():
 
     for item in result[0:top_n]:
         print(item, '\n')
-
